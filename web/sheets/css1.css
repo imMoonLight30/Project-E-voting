@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2017, 8:42:36 PM
+    Author     : dashmeetkaur
+*/
+
+footer {
+    clear: both;
+    background-color: white;
+    color: black;
+    height: 1cm;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 0;
+}
+body{
+    font-family:'Source Sans Pro',sans-serif;
+    background-color: whitesmoke;
+    cursor: default;
+    margin: 0;
+}
+div {
+    min-height:100%;
+    overflow: auto;
+    
+}
+    
+#div1{
+    margin: 0;
+    height:112px;
+    width:100%;
+    padding-top: 0px;
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    position: relative;
+  
+}
+#div1 h1{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+#div1 img{
+   float:left;
+   height:100%;
+   left: 20%;
+   position: relative;
+}
+#menudiv{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.menu ul{
+    list-style-type: none; 
+    margin: 0px 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    border: 10px solid white;
+}
+.menu li{
+    display: inline;
+    padding:20px 40px;
+    height: 1%;
+    width: max-content;
+   
+}
+li a{
+    padding: 10% 1%;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: black;
+    letter-spacing: 1px;
+    height: inherit;  
+}
+li a:hover{
+    background-color:blue;
+    color: white;   
+}
+li a.active{
+    background-color:white;
+   
+}
+ li a.active:hover{
+    color: black;
+ }
+
+.vmenu ul{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 10px solid white;
+    list-style-type: none;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: auto;
+    text-align: left;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+   
+}
+.vmenu li a{
+    display: block;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    padding: 8px 16px;
+}
+.vmenu li a:hover{
+    color: white;
+}
+.vmenu li a.active{
+    color:blue;
+}
+
+table,th,td{
+   text-align: left;
+   padding: 10px;
+}
+
+form{
+    padding: 20px 0px;
+}
+fieldset{
+      width: max-content;
+      text-align: center;
+}
+input
+{
+    padding:2px;
+    margin: 2px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: blue;
+    border: 2px  whitesmoke solid;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 13px;
+}
+                           
+#logoutButton{
+    border: 1px solid transparent;
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}

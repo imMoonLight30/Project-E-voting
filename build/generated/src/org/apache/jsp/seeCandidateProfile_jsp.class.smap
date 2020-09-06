@@ -1,0 +1,18 @@
+SMAP
+seeCandidateProfile_jsp.java
+JSP
+*S JSP
+*F
++ 0 seeCandidateProfile.jsp
+seeCandidateProfile.jsp
+*L
+5,41:45
+46,15:87
+60:102
+61:103,5
+62:108
+63,4:109,3
+67,4:121
+71,5:126
+75,10:131
+*E

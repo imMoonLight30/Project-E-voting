@@ -1,0 +1,19 @@
+SMAP
+managestudents_jsp.java
+JSP
+*S JSP
+*F
++ 0 managestudents.jsp
+managestudents.jsp
+*L
+5,75:48
+80,9:124
+88,3:133
+91,10:136,3
+101:166
+102:167,3
+103,4:170
+107:174,3
+108,13:177
+120,13:190
+*E
